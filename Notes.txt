@@ -129,3 +129,7 @@ git rebase --interactive <branch>/<commit>
 git rebase -i --root
 
 git rebase -i HEAD~3
+
+
+git log --oneline --decorate --graph --all
+show all changes
