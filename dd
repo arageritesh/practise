@@ -1,0 +1,16 @@
+[33mcommit 45ec9a9735ef7e4d711f3b3f2bf6f7a978fd6125[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: arageritesh <arageritesh379@gmail.com>
+Date:   Fri Jan 31 14:53:12 2025 +0530
+
+    second commit
+
+[1mdiff --git a/Notes.txt b/Notes.txt[m
+[1mindex f3bb60f..28dd4dc 100644[m
+[1m--- a/Notes.txt[m
+[1m+++ b/Notes.txt[m
+[36m@@ -19,3 +19,5 @@[m [mgit add .[m
+ git commit -m "message"[m
+ [m
+ .gitignore file is used to ignore files ofr uploading on github.[m
+[32m+[m
+[32m+[m[32mgit rm filename.extension : delete file[m

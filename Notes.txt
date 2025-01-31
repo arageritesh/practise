@@ -19,3 +19,98 @@ git add .
 git commit -m "message"
 
 .gitignore file is used to ignore files ofr uploading on github.
+
+git rm filename.extension : delete file
+ git show 
+
+ git status: tells info of files which are modified and uncommited
+
+git checkout branchname/filename/. : to switch to another branch and for restoring files
+
+git switch branchname: to switch to another branch
+
+# Version Control System Overview
+
+## What is Version Control?
+A version control system is used to track changes in your code. It also keeps a record of project history.
+
+## Collaboration Benefits
+Version control enables collaboration by allowing teams to:
+* Group changes
+* Share code
+* Track who made changes, what changes were made, and when
+
+## Types of Version Control Systems
+There are three main types of version control systems:
+1. Centralized
+2. Distributed
+3. Local
+
+## Centralized Version Control System
+A centralized version control system has three main components:
+1. Storage
+2. Tracking
+3. Retrieval
+
+## Git Overview
+Git is a version and source control system. It allows you to see checkpoints and commits.
+
+### Configuring Git
+To configure Git, use the following commands:
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+```
+
+### Staging Changes
+To stage changes, use the following commands:
+```bash
+git add --all
+git add -A
+git add .
+```
+
+### Committing Changes
+To commit changes, use the following command:
+```bash
+git commit -m "Your commit message"
+```
+
+### Ignoring Files
+To ignore files from being uploaded to GitHub, create a `.gitignore` file.
+
+### Deleting Files
+To delete a file, use the following command:
+```bash
+git rm filename.extension
+```
+
+### Viewing Commit History
+To view commit history, use the following command:
+```bash
+git show
+```
+
+### Checking Status
+To check the status of files, use the following command:
+```bash
+git status
+```
+
+### Switching Branches
+To switch to another branch, use the following commands:
+```bash
+git checkout branchname
+git switch branchname
+```
+
+### Restoring Files
+To restore a file, use the following command:
+```bash
+git checkout filename
+```
+git mv old_file_name new_file_name (with extensions)
+
+git diff: shows the differences between the old and new file.(What changes are made)
+
+q: return out of any command
