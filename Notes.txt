@@ -10,10 +10,12 @@ centralized: 1]Storage 2]Tracking 3]Retrieval
 Git is version and source control system.You can see check points and see commits.
 
 git config --global user.name ""
-
+            
 git config --global user.email ""
 
 staging: git add --all
 git add -add
 git add .
 git commit -m "message"
+
+.gitignore file is used to ignore files ofr uploading on github.
