@@ -1,0 +1,19 @@
+version control system
+track changes in your code. It also keeps project history
+
+collaboration: *group changes, *share code, *who,what,when
+
+types of version control: 1] Centralized 2] Distributed 3] local
+
+centralized: 1]Storage 2]Tracking 3]Retrieval
+
+Git is version and source control system.You can see check points and see commits.
+
+git config --global user.name ""
+
+git config --global user.email ""
+
+staging: git add --all
+git add -add
+git add .
+git commit -m "message"
