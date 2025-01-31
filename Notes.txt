@@ -114,3 +114,18 @@ git mv old_file_name new_file_name (with extensions)
 git diff: shows the differences between the old and new file.(What changes are made)
 
 q: return out of any command
+
+git log -- oneline: tells names of files which are modifies and moved
+
+git diff hash(hash id) 
+
+git commit --amend -m "new commit message"
+git commit --amend --no-edit
+
+git --help  :   to know info of all commands
+
+git rebase --interactive <branch>/<commit>
+
+git rebase -i --root
+
+git rebase -i HEAD~3
